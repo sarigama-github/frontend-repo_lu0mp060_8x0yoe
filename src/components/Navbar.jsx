@@ -7,8 +7,9 @@ export default function Navbar() {
   const navItems = [
     { id: "inicio", label: "Inicio" },
     { id: "servicios", label: "Servicios" },
-    { id: "sobre", label: "Sobre nosotros" },
-    { id: "galeria", label: "Galería" },
+    { id: "flota", label: "Flota" },
+    { id: "logistica", label: "Logística" },
+    { id: "sobre", label: "La empresa" },
     { id: "contacto", label: "Contacto" },
   ];
 
@@ -24,7 +25,7 @@ export default function Navbar() {
         <div className="h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <img src="/flame-icon.svg" alt="Logo" className="w-8 h-8" />
-            <span className="text-white font-semibold tracking-tight">TGA Gout</span>
+            <span className="text-white font-semibold tracking-tight">TGAgout</span>
           </div>
 
           <nav className="hidden md:flex items-center gap-8">

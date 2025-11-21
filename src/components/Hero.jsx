@@ -6,21 +6,27 @@ export default function Hero() {
         <div className="grid md:grid-cols-2 gap-10 items-center py-16">
           <div>
             <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-white">
-              Nueva página web en español para tu marca
+              Transporte y Logística Terrestre Personalizada desde 1986
             </h1>
             <p className="mt-5 text-lg text-blue-100/90">
-              Hemos preparado una versión moderna, rápida y adaptable a móviles. Comparte el texto e imágenes que quieras usar y la publicaremos al instante.
+              Soluciones a medida para empresas y eventos. Cumplimos plazos, protegemos tu mercancía y te mantenemos informado de principio a fin.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <a href="#contacto" className="px-5 py-3 rounded-lg bg-blue-500 text-white font-medium hover:bg-blue-600 transition-colors">Solicitar contenido</a>
-              <a href="#servicios" className="px-5 py-3 rounded-lg bg-white/10 text-white font-medium hover:bg-white/20 transition-colors">Ver secciones</a>
+              <a href="#presupuesto" className="px-5 py-3 rounded-lg bg-blue-500 text-white font-medium hover:bg-blue-600 transition-colors">Solicitar presupuesto</a>
+              <a href="#servicios" className="px-5 py-3 rounded-lg bg-white/10 text-white font-medium hover:bg-white/20 transition-colors">Ver servicios</a>
+            </div>
+            <div className="mt-8 grid grid-cols-2 gap-4 text-blue-100/80 text-sm">
+              <div className="rounded-lg border border-white/10 p-4 bg-white/5">Personalización</div>
+              <div className="rounded-lg border border-white/10 p-4 bg-white/5">Seguridad garantizada</div>
+              <div className="rounded-lg border border-white/10 p-4 bg-white/5">Cumplimiento de plazos</div>
+              <div className="rounded-lg border border-white/10 p-4 bg-white/5">Precios competitivos</div>
             </div>
           </div>
           <div>
             <div className="relative rounded-2xl border border-white/10 bg-gradient-to-br from-slate-800 to-slate-900 p-4 shadow-2xl">
-              <div className="aspect-[16/10] w-full rounded-xl bg-[url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1200&auto=format&fit=crop')] bg-cover bg-center" />
+              <div className="aspect-[16/10] w-full rounded-xl bg-[url('https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=1600&auto=format&fit=crop')] bg-cover bg-center" />
             </div>
-            <p className="mt-3 text-sm text-blue-200/70">Imagen de ejemplo. Sustituiremos por tus propias fotos y logotipo.</p>
+            <p className="mt-3 text-sm text-blue-200/70">Sustituiremos esta imagen por una fotografía real de la flota o almacén.</p>
           </div>
         </div>
       </div>
